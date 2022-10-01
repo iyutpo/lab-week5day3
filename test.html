@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="do1()">
+    
+    <script>
+
+        function do1() {
+            const theimg = document.createElement('img');
+            theimg.src = 'cat.png';
+            document.body.appendChild(theimg);
+            for (let i = 0; i < 10 ; i++) {
+                if (i === 5) continue;
+                if (i > 6) {
+                    document.body.removeChild(document.body.lastElementChild);
+                } else {
+                    const newimg = theimg.cloneNode();
+                    document.body.appendChild(newimg);
+                }
+            }
+        }
+    </script>
+</body>
+</html>

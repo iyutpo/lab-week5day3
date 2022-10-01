@@ -1,0 +1,179 @@
+header {
+    background: url(./images/central_park.jpg) 0 -200px no-repeat;
+    background-size: 1500px;
+    height: 400px;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+}
+li a {
+    text-decoration: none;
+}
+li a:link {
+    color: #000;
+}
+li a:visited {
+    color:#818db3;
+}
+li a:hover {
+    color:#333;
+}
+li a:active {
+    color: #753a30;
+}
+
+nav {
+    background-color: rgb(255, 245, 238);
+    height:50px;
+    text-align:center;
+    padding-top: 2px;
+}
+
+main {
+    margin: 50px;
+}
+
+main h1 {
+    color: rgb(129, 141, 179);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main #album #photo img {
+    width: 400px;
+}
+main #album figcaption {
+    width: 400px;
+    text-align: center;
+}
+li#photo {
+    display: inline-block;
+    padding-right: 10px;
+    position: relative;
+}
+div.container {
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+li#photo span {
+    /* z-index: 4; */
+    visibility: visible;
+    display: none;
+}
+li#photo:hover span {
+    /* z-index: 5; */
+    display: inline-block;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+    font-size: large;
+    visibility: visible;
+    cursor: pointer;
+    background-color: rgb(255, 245, 238, 0.7);
+}
+/* info box config */
+li#photo img:hover {
+    cursor: pointer;
+}
+/* snow land */
+div#infobox_snow {
+    z-index: 10;
+    position: absolute;
+    bottom: -10px;
+    left: 500px;
+    background-color: black;
+    border-radius: 10px;
+    visibility: hidden;
+    width: 250px;
+}
+div#infobox_snow > * {
+    color: white;
+}
+div#infobox_snow .exit {
+    color: yellow;
+    text-align: center;
+    cursor: pointer;
+}
+/* wintery road */
+div#infobox_wintery {
+    z-index: 10;
+    position: absolute;
+    bottom: 200px;
+    right: -100px;
+    background-color: black;
+    border-radius: 10px;
+    visibility: hidden;
+    width: 250px;
+}
+div#infobox_wintery > * {
+    color: white;
+}
+div#infobox_wintery .exit {
+    color: yellow;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+footer {
+    height: 40px;
+    background-color: rgb(129, 141, 179);
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(211, 218, 240);
+}
+
+
+/* Page 2 */ 
+table {
+    margin-top: 35px;
+}
+
+table, caption, th, td {
+    /* Group Selector */
+    border: 1px solid #000;
+}
+
+th, td {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+
+caption {
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding-top: 15px;
+    color: #753a30;
+}
+
+label {
+    display: block;
+    margin: 15px 0 0 0;
+}
+
+input, textarea {
+    width: 300px;
+}
+
+input[type="radio"] {
+    width: 25px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 20px 0 10px 0;
+    width: 100px;
+}
+
+
+
+

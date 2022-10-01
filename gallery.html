@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Fourth web page</title>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+        
+        <!-- Container -->
+        <div id="container">
+
+            <header style="font-size: 60px; color: #fff">My web site brand</header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="page2.html">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="page3.html">Contact</a></li>
+                </ul>
+
+            </nav>
+
+            <main>
+                <h1>My Fourth Heading</h1>
+                <p>My Fourth paragraph.</p>
+                
+                <ul id="album">
+                    <!-- <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland1.jpg">
+                            <span>testing</span>
+                            <figcaption>Dog</figcaption>
+                        </div>
+                    </li>
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland1.jpg">
+                            <span>testing</span>
+                            <figcaption>Dog</figcaption>
+                        </div>
+                    </li>
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland1.jpg">
+                            <span>testing</span>
+                            <figcaption>Dog</figcaption>
+                        </div>
+                    </li>
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland1.jpg">
+                            <span>testing</span>
+                            <figcaption>Dog</figcaption>
+                        </div>
+                    </li>
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland1.jpg">
+                            <span>testing</span>
+                            <figcaption>Dog</figcaption>
+                        </div>
+                    </li>
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland1.jpg">
+                            <span>testing</span>
+                            <figcaption>Dog</figcaption>
+                        </div>
+                    </li> -->
+                    
+                    <!-- img 1 -->
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland1.jpg" onmouseover="show(true, 'snow land')">
+                            <span id="info">Before an overnight snowstorm</span>
+                            <figcaption>BEAUTIFUL LAND</figcaption>
+                            <div id="infobox_snow">
+                                <h1>Beautiful Land</h1>
+                                <p>Most of plants and animals are having their 
+                                    hibernation period, so winter is not full of 
+                                    bright colors, but who says that white, 
+                                    snowy and a bit magical winter is not cool?</p>
+                                <p class="exit" onclick="show(false, 'snow land')">Click This to Close</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- img 2 -->
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland2.jpg" onmouseover="show(true, 'snow land')">
+                            <span id="info">After an overnight snowstorm</span>
+                            <figcaption>SNOW LAND</figcaption>
+                            <div id="infobox_snow">
+                                <h1>Snow Land</h1>
+                                <p>Most of plants and animals are having their 
+                                    hibernation period, so winter is not full of 
+                                    bright colors, but who says that white, 
+                                    snowy and a bit magical winter is not cool?</p>
+                                <p class="exit" onclick="show(false, 'snow land')">Click This to Close</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- img 3 -->
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland3.jpg" onmouseover="show(true, 'snow land')">
+                            <span id="info">Before an overnight snowstorm</span>
+                            <figcaption>BEAUTIFUL LAND</figcaption>
+                            <div id="infobox_snow">
+                                <h1>Beautiful Land</h1>
+                                <p>Most of plants and animals are having their 
+                                    hibernation period, so winter is not full of 
+                                    bright colors, but who says that white, 
+                                    snowy and a bit magical winter is not cool?</p>
+                                <p class="exit" onclick="show(false, 'snow land')">Click This to Close</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- img 4 -->
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland4.jpg" onmouseover="show(true, 'snow land')">
+                            <span id="info">After an overnight snowstorm</span>
+                            <figcaption>SNOWY LAND</figcaption>
+                            <div id="infobox_snow">
+                                <h1>Snowy Land</h1>
+                                <p>Most of plants and animals are having their 
+                                    hibernation period, so winter is not full of 
+                                    bright colors, but who says that white, 
+                                    snowy and a bit magical winter is not cool?</p>
+                                <p class="exit" onclick="show(false)">Click This to Close</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- img 5 -->
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland5.jpg" onmouseover="show(true, 'snow land')">
+                            <span id="info">Before an overnight snowstorm</span>
+                            <figcaption>WINTERY ROAD</figcaption>
+                            <div id="infobox_snow">
+                                <h1>Wintery Road</h1>
+                                <p>Most of plants and animals are having their 
+                                    hibernation period, so winter is not full of 
+                                    bright colors, but who says that white, 
+                                    snowy and a bit magical winter is not cool?</p>
+                                    <p class="exit" onclick="show(false, 'snow land')">Click This to Close</p>
+                                </div>
+                        </div>
+                    </li>
+                    <!-- img 6 -->
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland6.jpg" onmouseover="show(true, 'snow land')">
+                            <span id="info">After an overnight snowstorm</span>
+                            <figcaption>WINTER IN THE COUNTRY</figcaption>
+                            <div id="infobox_snow">
+                                <h1>Winter in the Country</h1>
+                                <p>Most of plants and animals are having their 
+                                    hibernation period, so winter is not full of 
+                                    bright colors, but who says that white, 
+                                    snowy and a bit magical winter is not cool?</p>
+                                <p class="exit" onclick="show(false, 'snow land')">Click This to Close</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- img 7 -->
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland7.jpg" onmouseover="show(true, 'wintery road')">
+                            <span id="info">Snowy driveway</span>
+                            <figcaption>WINTERY ROAD</figcaption>
+                            <div id="infobox_wintery">
+                                <h1>Wintery Road</h1>
+                                <p>The most beautiful phenomenon of the winter is snow!
+                                    You kno wthat the snowflakes are never repeat themselves,
+                                    they have amazing shapes, that different with each new 
+                                    snowflake.
+                                </p>
+                                <p class="exit" onclick="show(false, 'wintery road')">Click This to Close</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- img 8 -->
+                    <li id="photo">
+                        <div class="container">
+                            <img src="./images/winterland8.jpg" onmouseover="show(true, 'wintery road')">
+                            <span id="info">After an overnight snowstorm</span>
+                            <figcaption>WINTER IN THE COUNTRY</figcaption>
+                            <div id="infobox_wintery">
+                                <h1>Winter in the Country</h1>
+                                <p>Most of plants and animals are having their 
+                                    hibernation period, so winter is not full of 
+                                    bright colors, but who says that white, 
+                                    snowy and a bit magical winter is not cool?</p>
+                                <p class="exit" onclick="show(false, 'wintery road')">Click This to Close</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </main>
+            <footer>&copy; Copyright 2022</footer>
+            
+        </div>
+
+        <script src="./js/script.js"></script>
+
+        <!-- <script>
+            function show(shown, which) {
+                var infobox;
+                if (which === 'wintery road') {
+                    infobox = document.getElementById('infobox_wintery');
+                } else {
+                    infobox = document.getElementById('infobox_snow');
+                }
+                if (shown == false) {
+                    infobox.style.visibility = 'hidden';
+                } else {
+                    infobox.style.visibility = 'visible';
+                }
+            }
+        </script> -->
+        
+        <!-- <script>
+            var photos = [];
+            var fileNames = [];
+            var imageList = [];
+            var image;
+            var openList = "<li id='photo'><div class='container'>";
+            var closeList = "</li>";
+            var captions = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth'];
+            var overCaptions = ['A beautiful winter scenery in the morning', 
+                                'A beautiful winter scenery in the morning', 
+                                'A beautiful winter scenery in the morning', 
+                                'A beautiful winter scenery in the morning', 
+                                'A beautiful winter scenery in the morning', 
+                                'A beautiful winter scenery in the morning'];
+            for (var i = 0; i < 6; i++) {
+                fileNames.push("winterland" + (i + 1));
+                photos.push("<img src='images/" + fileNames[i] + ".jpg'><span>" + 
+                    overCaptions[i] + "</span><figcaption>" + captions[i] + "</figcaption>");
+                image = openList + photos[i] + closeList;
+                imageList.push(image);
+            }
+            document.getElementById("album").innerHTML = imageList.join(' ');
+            console.log(imageList); -->
+        <!-- </script> -->
+    </body>
+</html>
